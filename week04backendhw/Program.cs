@@ -240,7 +240,7 @@
 //}
 //Console.ReadKey();
 
-例題3.7 請將程式九九乘法表改成3*3的排列  
+/*例題3.7 請將程式九九乘法表改成3*3的排列 */
 
 
 
@@ -637,7 +637,35 @@
 
 
 
-例題4.2 求最大公約數(Greatest Common Divisor，簡寫G.C.D.，或稱最大公因數)
+/*例題4.2 求最大公約數(Greatest Common Divisor，簡寫G.C.D.，或稱最大公因數)*/
+//Console.Write(" X = ");
+//int x = Convert.ToInt32(Console.ReadLine());
+//Console.Write(" Y = ");
+//int y = Convert.ToInt32(Console.ReadLine());
+
+//int ans = 0;
+//while (true)
+//{
+//    if(x>y) {
+//        x = x % y;
+//    }
+//    else { 
+//        y = y % x; 
+//    }
+
+//    if (y % x == 0) {
+//        ans = x;
+//        break;
+//    }
+//    if (x % y == 0) { 
+//        ans =y;
+//        break;
+//    }
+// }
+//Console.Write($" 最大公因數 = {ans}");
+//Console.ReadKey();
+
+
 
 /* 例題4.3 計算N個數字的和。檢查i有沒有超過N，超過就不做了*/
 /* 白話：請設計一個流程或程式，可以輸入 N 個數字，並計算這 N 個數字的總和。*/
@@ -739,13 +767,10 @@
 //}
 //Console.ReadKey();
 
+
+
 /* 習題 4-5.利用while寫一程式，讀入a1,a2,…,a5和b1,b2,…,b5。找到第一個ai>bi，即停止，並列印出ai及bi。*/
-int i = 1;
-while (i<=5) {
-    Console.Write($"a{i} = ");
-    int a = Convert.ToInt32( Console.ReadLine() );
-    i++;
-}
+
 
 
 
@@ -774,7 +799,7 @@ while (i<=5) {
 
 
 
-補充題目 2.小明貸款買房花560萬，每個月可還4萬，每還12個月，因為年終獎金可以多還一萬，請問需要幾個月還清。
+/*補充題目 2.小明貸款買房花560萬，每個月可還4萬，每還12個月，因為年終獎金可以多還一萬，請問需要幾個月還清。*/
 
 /* 補充題目 3.系統隨機產生一個數字，讓使用者數入數字，直到猜中才離開程式！，猜錯時，要提示是比較大還是比較小。*/
 
