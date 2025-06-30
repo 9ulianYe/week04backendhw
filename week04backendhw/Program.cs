@@ -564,18 +564,26 @@
 //補充習題 2.輸入一個數，輸出其質因數
 Console.Write("輸入一個數 = ");
 int num = Convert.ToInt32(Console.ReadLine());
+
 for (int i = 2; i <= num; i++)
 {
     if (num % i == 0) {
+        
         //如果num能被i整除，i是num的因數
+        bool isPrimeNumber = true; 
         double sqrtI = Math.Truncate(Math.Sqrt(i));
         for (int j = 2; j <= sqrtI; j++) {
             if (i % j == 0) {
-                
+                isPrimeNumber = false;
+                break;
             }
+        }
+        if (isPrimeNumber) {
+            Console.WriteLine(i);
         }
     }
 }
+Console.ReadKey();
 
 
 
