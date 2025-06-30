@@ -75,9 +75,9 @@
 
 
 
-/*例題3.3 假設有N個正整數，求其中的最大值*/
+/* 例題3.3 假設有N個正整數，求其中的最大值*/
 
-/*for loop*/
+/* for loop*/
 
 //Console.WriteLine("how many number do you want to input ?");
 //int n = Convert.ToInt32(Console.ReadLine());
@@ -100,7 +100,7 @@
 //Console.Write($"the largest number is {max}");
 //Console.ReadKey();
 
-/*while loop*/
+/* while loop*/
 
 //Console.WriteLine("how many number do you want to input ?");
 //int n = Convert.ToInt32(Console.ReadLine());
@@ -123,9 +123,9 @@
 //Console.Write($"the largest number is {max}");
 //Console.ReadKey();
 
-/*例題3.4假設有N個正整數，求最大奇數值。*/
+/* 例題3.4假設有N個正整數，求最大奇數值。*/
 
-/*for loop*/
+/* for loop*/
 
 //Console.WriteLine("how many number do you want to input ?");
 //int n = Convert.ToInt32(Console.ReadLine());
@@ -150,7 +150,7 @@
 //Console.Write($"the largist number = {max}");
 //Console.ReadKey();
 
-/*while loop*/
+/* while loop*/
 //Console.WriteLine("how many number do you want to input ?");
 //int n = Convert.ToInt32(Console.ReadLine());
 //int num = 0;
@@ -176,7 +176,7 @@
 //Console.Write($"the largist number = {max}");
 //Console.ReadKey();
 
-/*例題3.5 求N階層 p28，即求1×2×3×…×N。*/
+/* 例題3.5 求N階層 p28，即求1×2×3×…×N。*/
 
 /*for loop*/
 
@@ -205,7 +205,7 @@
 //Console.ReadKey();
 
 
-//例題3.6 p.35 輸出一個九九乘法表
+/* 例題3.6 p.35 輸出一個九九乘法表 */
 
 /*for loop*/
 
@@ -240,15 +240,15 @@
 //}
 //Console.ReadKey();
 
-//例題3.7 請將程式九九乘法表改成3*3的排列  
+例題3.7 請將程式九九乘法表改成3*3的排列  
 
 
 
 
 
-/*習題 3-1.寫一程式，輸入10個整數，求其最小值。*/
+/* 習題 3-1.寫一程式，輸入10個整數，求其最小值。 */
 
-/*for loop*/
+/* for loop*/
 
 //int num = 0;
 //int min = int.MaxValue; 
@@ -266,7 +266,7 @@
 //Console.WriteLine($" the min number = {min}");
 //Console.ReadKey();
 
-/*while loop*/
+/* while loop */
 
 //int num = 0;
 //int min = int.MaxValue;
@@ -287,8 +287,8 @@
 //Console.WriteLine($"the min number = {min}");
 //Console.ReadKey();
 
-/*習題 3-2.寫一程式，輸入N個整數，求其最小值。*/
-/*for loop*/
+/* 習題 3-2.寫一程式，輸入N個整數，求其最小值。*/
+/* for loop*/
 
 //int n;
 //int min = int.MaxValue;
@@ -311,7 +311,7 @@
 //Console.Write($"the min num = {min}");
 //Console.ReadKey();
 
-/*while loop*/
+/* while loop */
 
 //int min = int.MaxValue;
 
@@ -339,9 +339,9 @@
 
 
 
-/*習題 3-3.寫一程式，輸入10個整數，列出其中所有大於12的數字。(未完成)*/
+/* 習題 3-3.寫一程式，輸入10個整數，列出其中所有大於12的數字。*/
 
-/*for loop*/
+/* for loop*/
 
 //int num;
 //for (int i = 1; i <= 10; i++)
@@ -355,7 +355,7 @@
 //}
 //Console.ReadKey();
 
-/*while loop*/
+/* while loop*/
 
 //int num;
 //int i = 1;
@@ -373,9 +373,9 @@
 
 
 
-/*習題 3-4.寫一程式，輸入10個整數，列出其中所有大於12的數字的總和。*/
+/* 習題 3-4.寫一程式，輸入10個整數，列出其中所有大於12的數字的總和。*/
 
-/*for loop*/
+/* for loop*/
 
 //int sum = 0;
 //for (int i = 1; i <= 10; i++)
@@ -390,7 +390,7 @@
 //Console.WriteLine($"sun = {sum} ");
 //Console.ReadKey();
 
-/*while loop*/
+/* while loop*/
 
 //int sum = 0;
 //int i = 1;
@@ -408,9 +408,9 @@
 //Console.ReadKey();
 
 
-/*習題 3-5.寫一程式，輸入N個數字，求其所有奇數中的最大值。例如輸入11,12,3,24,15，答案是15。*/
+/* 習題 3-5.寫一程式，輸入N個數字，求其所有奇數中的最大值。例如輸入11,12,3,24,15，答案是15。*/
 
-/*for loop*/
+/* for loop*/
 
 //Console.Write("N = ");
 //int n = Convert.ToInt32(Console.ReadLine());
@@ -431,7 +431,8 @@
 //Console.WriteLine($"the max number = {max}");
 //Console.ReadKey();
 
-/*while loop*/
+/* while loop */
+
 //Console.Write("N = ");
 //int n = Convert.ToInt32(Console.ReadLine());
 //int max = int.MinValue;
@@ -500,9 +501,9 @@
 //Console.ReadKey();
 
 
-/*習題 3-7.寫一程式，輸入N個數字，其中有些是負數，將這些負數轉換成正數，例如-7會被轉換成7。 */
+/* 習題 3-7.寫一程式，輸入N個數字，其中有些是負數，將這些負數轉換成正數，例如-7會被轉換成7。 */
 
-/*for loop*/
+/* for loop*/
 
 //int abs;
 //Console.Write("N = ");
@@ -519,7 +520,7 @@
 //}
 //Console.ReadKey();
 
-/*while loop*/
+/* while loop*/
 
 //Console.Write("N = ");
 //int n = Convert.ToInt32(Console.ReadLine());
@@ -537,7 +538,7 @@
 //}
 //Console.ReadKey();
 
-/*補充習題 1.判斷101-200之間有多少個質數，並輸出所有質數。*/
+/* 補充習題 1.判斷101-200之間有多少個質數，並輸出所有質數。*/
 
 //int count = 0;
 //for (int i = 101; i <=200; i++)
@@ -561,34 +562,35 @@
 //Console.ReadKey();
 
 
-//補充習題 2.輸入一個數，輸出其質因數
-Console.Write("輸入一個數 = ");
-int num = Convert.ToInt32(Console.ReadLine());
+/* 補充習題 2.輸入一個數，輸出其質因數 */
 
-for (int i = 2; i <= num; i++)
-{
-    if (num % i == 0) {
-        
-        //如果num能被i整除，i是num的因數
-        bool isPrimeNumber = true; 
-        double sqrtI = Math.Truncate(Math.Sqrt(i));
-        for (int j = 2; j <= sqrtI; j++) {
-            if (i % j == 0) {
-                isPrimeNumber = false;
-                break;
-            }
-        }
-        if (isPrimeNumber) {
-            Console.WriteLine(i);
-        }
-    }
-}
-Console.ReadKey();
+//Console.Write("輸入一個數 = ");
+//int num = Convert.ToInt32(Console.ReadLine());
+
+//for (int i = 2; i <= num; i++)
+//{
+//    if (num % i == 0) {
+
+//        //如果num能被i整除，i是num的因數
+//        bool isPrimeNumber = true; 
+//        double sqrtI = Math.Truncate(Math.Sqrt(i));
+//        for (int j = 2; j <= sqrtI; j++) {
+//            if (i % j == 0) {
+//                isPrimeNumber = false;
+//                break;
+//            }
+//        }
+//        if (isPrimeNumber) {
+//            Console.WriteLine(i);
+//        }
+//    }
+//}
+//Console.ReadKey();
 
 
 
-//補充習題 3.求100到300中可以被3與7整除的個數。
-//for loop
+/* 補充習題 3.求100到300中可以被3與7整除的個數。*/
+/* for loop */
 
 //int count = 0;
 //for (int i = 100; i <= 300; i++)
@@ -635,10 +637,10 @@ Console.ReadKey();
 
 
 
-//例題4.2 求最大公約數(Greatest Common Divisor，簡寫G.C.D.，或稱最大公因數)
+例題4.2 求最大公約數(Greatest Common Divisor，簡寫G.C.D.，或稱最大公因數)
 
-/*例題4.3 計算N個數字的和。檢查i有沒有超過N，超過就不做了*/
-/*白話：請設計一個流程或程式，可以輸入 N 個數字，並計算這 N 個數字的總和。*/
+/* 例題4.3 計算N個數字的和。檢查i有沒有超過N，超過就不做了*/
+/* 白話：請設計一個流程或程式，可以輸入 N 個數字，並計算這 N 個數字的總和。*/
 
 //int num = 0;
 //int sum = 0;
@@ -656,7 +658,7 @@ Console.ReadKey();
 //Console.ReadKey();
 
 
-/*習題 4-1.利用while寫一程式求N個數字的最大值。*/
+/* 習題 4-1.利用while寫一程式求N個數字的最大值。 */
 
 //int num = 0;
 //int max = int.MinValue;
@@ -674,7 +676,7 @@ Console.ReadKey();
 //Console.ReadKey();
 
 
-/*習題 4-2.利用while寫一程式求一個等差級數數字的和，一共有N個數字，程式應該輸入最小的起始值以及數字間的差。
+/* 習題 4-2.利用while寫一程式求一個等差級數數字的和，一共有N個數字，程式應該輸入最小的起始值以及數字間的差。
  * (即從起始值開始，間格差，共N個 的總和)
  *  白話: 輸入N、起始值、公差 */
 /* 補充: 等差公式 
@@ -701,17 +703,57 @@ Console.ReadKey();
 //Console.ReadKey(); 
 
 
-//習題 4-3.利用while寫一程式，讀入N個數字，然後找出所有小於13的數，再求這些數字的和。
+/* 習題 4-3.利用while寫一程式，讀入N個數字，然後找出所有小於13的數，再求這些數字的和。*/
+
+//int sum = 0;
+//Console.Write("N = ");
+//int n = Convert.ToInt32(Console.ReadLine());
+//int i = 1;
+//while (i <= n) {
+//    Console.Write($"第{i}個數字 = ");
+//    int num = Convert.ToInt32(Console.ReadLine());
+//    if (num < 13) { 
+//    sum = sum + num;
+//    }
+//    i++;
+//}
+//Console.Write($"Sum = {sum}");
+//Console.ReadKey();
+
+/*習題 4-4.利用while寫一程式，讀入N個數字，找到第一個大於7而小於10的數字就停止，而且列印出這個數字*/
+
+//Console.Write("N = ");
+//int n = Convert.ToInt32(Console.ReadLine());
+
+//int i = 1;
+//while (i<=n)
+//{
+//    Console.Write($"第{i}個數字 = ");
+//    int num = Convert.ToInt32(Console.ReadLine());
+//    if (num > 7 && num < 10) {
+//        Console.WriteLine($"你找到了，數字{num}");
+//        break;
+//    }
+//    i++;
+
+//}
+//Console.ReadKey();
+
+/* 習題 4-5.利用while寫一程式，讀入a1,a2,…,a5和b1,b2,…,b5。找到第一個ai>bi，即停止，並列印出ai及bi。*/
+int i = 1;
+while (i<=5) {
+    Console.Write($"a{i} = ");
+    int a = Convert.ToInt32( Console.ReadLine() );
+    i++;
+}
 
 
 
 
-//習題 4-4.利用while寫一程式，讀入N個數字，找到第一個大於7而小於10的數字就停止，而且列印出這個數字
 
 
-/*補充題目 1.Eric覺得麥蒂勞的39元漢堡實在太便宜、太好吃了，因此他決定晚餐要把口袋裡所有錢通通拿來吃39元漢堡。
+/* 補充題目 1.Eric覺得麥蒂勞的39元漢堡實在太便宜、太好吃了，因此他決定晚餐要把口袋裡所有錢通通拿來吃39元漢堡。
 假設他每5分鐘就能吃一個漢堡，請隨意輸入一個時間，輸出這段時間吃漢堡的紀錄。*/
-
 
 //Console.Write("input time (min) = ");
 //int min = Convert.ToInt32(Console.ReadLine());
@@ -732,9 +774,9 @@ Console.ReadKey();
 
 
 
-//補充題目 2.小明貸款買房花560萬，每個月可還4萬，每還12個月，因為年終獎金可以多還一萬，請問需要幾個月還清。
+補充題目 2.小明貸款買房花560萬，每個月可還4萬，每還12個月，因為年終獎金可以多還一萬，請問需要幾個月還清。
 
-/*補充題目 3.系統隨機產生一個數字，讓使用者數入數字，直到猜中才離開程式！，猜錯時，要提示是比較大還是比較小。*/
+/* 補充題目 3.系統隨機產生一個數字，讓使用者數入數字，直到猜中才離開程式！，猜錯時，要提示是比較大還是比較小。*/
 
 //Console.WriteLine("系統隨機產生一個1~20的數字");
 //Random rnd = new Random();
