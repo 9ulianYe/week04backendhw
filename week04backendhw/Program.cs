@@ -242,6 +242,44 @@
 
 /*例題3.7 請將程式九九乘法表改成3*3的排列 */
 
+//for (int j = 1; j <= 9; j++) {
+
+
+//    for (int i = 1;  i <=3; i++)
+//    {
+//        Console.Write( $"{i}*{j}={i*j}".PadRight(8));
+//    }
+//    Console.WriteLine();
+
+
+//}
+//Console.WriteLine();
+//for (int j = 1; j <= 9; j++) {
+
+
+//    for (int i = 4;  i <=6; i++)
+//    {
+//        Console.Write( $"{i}*{j}={i*j}".PadRight(8));
+//    }
+//    Console.WriteLine();
+
+
+//}
+//Console.WriteLine();
+//for (int j = 1; j <= 9; j++) {
+
+
+//    for (int i = 7;  i <=9; i++)
+//    {
+//        Console.Write( $"{i}*{j}={i*j}".PadRight(8));
+//    }
+//    Console.WriteLine();
+
+
+//}
+
+
+
 
 
 
@@ -800,6 +838,21 @@
 
 
 /*補充題目 2.小明貸款買房花560萬，每個月可還4萬，每還12個月，因為年終獎金可以多還一萬，請問需要幾個月還清。*/
+//int repaymentAmount = 0;
+//int loan = 560;
+//int monthNumber = 1;
+//while (loan - repaymentAmount > 0)
+//{
+//    repaymentAmount = repaymentAmount +  4;
+//    if (monthNumber%12 == 0)
+//    {
+//        repaymentAmount = repaymentAmount + 1;
+//    }
+//    Console.WriteLine($"第{monthNumber}個月，還款{repaymentAmount},剩下{loan - repaymentAmount}");
+//    monthNumber++;
+//}
+//Console.ReadKey();
+
 
 /* 補充題目 3.系統隨機產生一個數字，讓使用者數入數字，直到猜中才離開程式！，猜錯時，要提示是比較大還是比較小。*/
 
