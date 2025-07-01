@@ -809,6 +809,19 @@
 
 /* 習題 4-5.利用while寫一程式，讀入a1,a2,…,a5和b1,b2,…,b5。找到第一個ai>bi，即停止，並列印出ai及bi。*/
 
+//for (int i = 1; i <= 5; i++)
+//{
+//    Console.Write($"input a{i}= ");
+//    int a = Convert.ToInt32( Console.ReadLine() );
+//     Console.Write($"input b{i}= ");
+//    int b = Convert.ToInt32( Console.ReadLine() );
+//    if (a > b) {
+//        Console.WriteLine($"a ={a}, b={b}");
+//        break;
+//    }
+//}
+//Console.ReadKey();  
+
 
 
 
